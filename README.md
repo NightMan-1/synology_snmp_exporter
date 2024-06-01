@@ -35,3 +35,10 @@ Most complete settings for Synology DSM 7.2 and snmp_exporter 0.26
 * https://grafana.com/grafana/dashboards/14364-synology-nas-overview/
 * https://grafana.com/grafana/dashboards/18643-synology-snmp/
 * https://grafana.com/grafana/dashboards/18349-synology-router-overview/
+
+
+## Sources:
+
+* https://github.com/clralab/boilerplates/blob/main/docker-compose/snmp_exporter/config/snmp.yml
+* https://github.com/prometheus/snmp_exporter/blob/main/snmp.yml
+* https://github.com/ddiiwoong/synology-prometheus/blob/master/snmp-synology/snmp.yml
