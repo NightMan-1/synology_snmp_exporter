@@ -8,7 +8,7 @@ Most complete settings for Synology DSM 7.2 and snmp_exporter 0.26
 
 ## Prometheus config example:
 
-``
+```
   - job_name: 'synology_snmp_exporter'
     static_configs:
       - targets: ['synology_device_ip_1', 'synology_device_ip_2']
@@ -24,7 +24,7 @@ Most complete settings for Synology DSM 7.2 and snmp_exporter 0.26
         regex: (.*)
         replacement: snmp_docker_host:9116
         target_label: __address__
-``
+```
 
 * synology_device_ip_1 and synology_device_ip_2 - IP address for Synology devices
 * snmp_docker_host - IP address where runnging snmp_exporter
