@@ -2,7 +2,7 @@
 
 Most complete settings for Synology DSM 7.2 and snmp_exporter 0.26
 
-* install docker image - https://registry.hub.docker.com/r/ricardbejarano/snmp_exporter/
+* Install docker image - https://registry.hub.docker.com/r/ricardbejarano/snmp_exporter/
 * Mount your configuration at /snmp.yml
 
 
