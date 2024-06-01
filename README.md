@@ -1,4 +1,4 @@
-﻿# Synology SNMP Exporter for Prometheus
+# Synology SNMP Exporter for Prometheus
 
 Most complete settings for Synology DSM 7.2 and snmp_exporter 0.26
 
@@ -28,3 +28,10 @@ Most complete settings for Synology DSM 7.2 and snmp_exporter 0.26
 
 * synology_device_ip_1 and synology_device_ip_2 - IP address for Synology devices
 * snmp_docker_host - IP address where runnging snmp_exporter
+
+## Grafana dashboards:
+
+* https://grafana.com/grafana/dashboards/14284-synology-nas-details/
+* https://grafana.com/grafana/dashboards/14364-synology-nas-overview/
+* https://grafana.com/grafana/dashboards/18643-synology-snmp/
+* https://grafana.com/grafana/dashboards/18349-synology-router-overview/
